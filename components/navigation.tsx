@@ -22,7 +22,7 @@ const IsotopeReact = () => {
 
         });
 
-
+        // going to deploy
         isotope.current = new Isotope('.filter-container', {
             itemSelector: '.filter-item',
             layoutMode: 'fitRows',
