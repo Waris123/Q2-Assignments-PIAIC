@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const IsotopeReact = () => {
     // init one ref to store the future isotope object
-    const isotope = React.useRef()
+    const isotope : { current: Isotope | undefined } = React.useRef()
     // store the filter keyword in a state
     const [filterKey, setFilterKey] = React.useState('*')
 
